@@ -7,21 +7,17 @@
 }
 
 .user-input {
-  display: flex;
-  align-items: center;
+  padding-left: 20vmin;
   color: black;
-  grid-column: span 3;
   font-size: 5vmin;
   font-weight: bold;
 }
 
 .progress-report {
-  
-  display: flex;
-  align-items: flex-end;
+  padding-left: 20vmin;
+  padding-top: 20vmin;
   color: black;
-  grid-column: span 3;
-  font-size: 2vmin;
+  font-size: 3vmin;
   font-weight: bold;
 }
 
