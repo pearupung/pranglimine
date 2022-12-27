@@ -9,25 +9,11 @@ let endTime = new Date().getTime() + levelTime
 
 function App() {
 
-    const challenges = [
-      ['2 + 2 = ', 4],
-      ['1 + 3 = ', 4],
-      ['4 + 4 = ', 8],
-      ['5 + 2 = ', 7],
-      ['6 + 2 = ', 8],
-      ['7 + 2 = ', 9],
-      ['2 + 5 = ', 7],
-      ['2 + 4 = ', 6],
-      ['1 + 1 = ', 2],
-      ['3 + 2 = ', 5],
-  ]
-
   const [userInput, setUserInput] = useState("")
   const [score, setScore] = useState(0)
   const [level, setLevel] = useState(1)
 
   const generateChallenge = () => {
-      const challengeIndex = Math.floor(Math.random() * 10)
       const numOne = Math.floor(Math.random() * 10 ** level)
       const numTwo = Math.floor(Math.random() * 10 ** level)
 
