@@ -3,7 +3,7 @@
   grid-template-columns: repeat(3, 15vmin);
   grid-template-rows: repeat(6, 15vmin);
   padding: 20vmin;
-  padding-top: 12.5vmin;
+  padding-top: 0vmin;
 }
 
 .user-input {
@@ -11,7 +11,17 @@
   align-items: center;
   color: black;
   grid-column: span 3;
-  font-size: 5vw;
+  font-size: 5vmin;
+  font-weight: bold;
+}
+
+.progress-report {
+  
+  display: flex;
+  align-items: flex-end;
+  color: black;
+  grid-column: span 3;
+  font-size: 2vmin;
   font-weight: bold;
 }
 
@@ -23,7 +33,7 @@
   color: white;
   border: 2px solid white;
   background-color: #2e543d;
-  font-size: 5vw;
+  font-size: 5vmin;
   /*font-family: 'Courier Prime', Courier, monospace;*/
   font-weight: bold;
   cursor: pointer;
@@ -44,6 +54,6 @@
   align-items: center;
   /*font-family: 'Courier Prime', Courier, monospace;*/
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 5vmin;
   cursor: pointer;
 }

@@ -35,7 +35,7 @@ const Keyboard = () => {
     }
 
     const submitAnswer = () => {
-        if (userInput == challenge[1]) {
+        if (userInput === challenge[1].toString()) {
             setScore(score + 2)
         } else {
             setScore(score - 1)
@@ -51,7 +51,7 @@ const Keyboard = () => {
     return (
         <div>
             <div className="keyboard">
-            <div className="user-input">Punkte: {score}</div>
+            <div className="progress-report">Punkte: {score}</div>
             <div className="user-input">{challenge[0]}{userInput}</div>
 
             {keyboard.map((key, index) => {
