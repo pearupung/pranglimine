@@ -1,30 +1,49 @@
 .keyboard {
   display: grid;
   grid-template-columns: repeat(3, 10vmin);
-  grid-template-rows: repeat(4, 10vmin);
-  grid-gap: 10px;
+  grid-template-rows: repeat(5, 10vmin);
   padding: 35vmin;
-  padding-bottom: 25vmin;
+  padding-top: 20vmin;
+}
+
+.user-input {
+  display: flex;
+  align-items: center;
+  color: black;
+  grid-column: span 3;
+  font-size: 5vw;
+  font-weight: bold;
 }
 
 .ok-button {
   grid-column: span 2;
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.ok-button:hover {
-  color: aqua;
+  color: white;
+  border: 2px solid white;
+  background-color: #2e543d;
+  font-size: 5vw;
+  /*font-family: 'Courier Prime', Courier, monospace;*/
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .button {
-  color: purple;
-  border: 2px solid black;
+  color: white;
+  border: 2px solid white;
+  background-color: #3f734d;
+  /* other colors */
+  /* 3f734d */
+  /* 4d845d */
+  /* 5e926c */
+
 
   display: flex;
   justify-content: center;
   align-items: center;
-
+  /*font-family: 'Courier Prime', Courier, monospace;*/
+  font-weight: bold;
+  font-size: 5vw;
+  cursor: pointer;
 }
