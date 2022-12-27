@@ -1,9 +1,9 @@
 .keyboard {
   display: grid;
-  grid-template-columns: repeat(3, 10vmin);
-  grid-template-rows: repeat(5, 10vmin);
-  padding: 35vmin;
-  padding-top: 20vmin;
+  grid-template-columns: repeat(3, 15vmin);
+  grid-template-rows: repeat(6, 15vmin);
+  padding: 20vmin;
+  padding-top: 12.5vmin;
 }
 
 .user-input {
